@@ -9,6 +9,6 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
           alert('Please fill out all the required fields.');
           return;
       }
-  
+      document.getElementById('myForm').style.display = 'none';
       document.getElementById('thankYouMessage').style.display = 'block';
   });
